@@ -12,7 +12,8 @@ SN = gg.choice({
    "الأنتين العادي  ",
       "نزول سريع",
 		  	  "أوم",
-			  		  "وال هاك",		  					  		  
+			  		  "وال هاك",	
+			  		  	  		  "دمج عالي",				  		  
     " خروج "
 }, nil, "Abo7amzeh hack️")
 if SN == nil then else
@@ -26,7 +27,8 @@ if SN ==  7 then ant() end
 if SN ==  8 then b() end
 if SN ==  9 then mw6() end
 if SN ==  10 then wal() end
-if SN == 11 then EXIT() end
+if SN ==  11 then hd() end
+if SN == 12 then EXIT() end
 end
 PUBGMH = -1
 end
@@ -34,23 +36,111 @@ end
 
 
 function saf()
- gg.clearResults()
+gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-if gg.getResultCount() == 1 then
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)                                     
+if gg.getResultCount() == 0 then
 gg.alert("❌ وقف لا تكمل")
 else
 gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 n=gg.getResultCount()
 jz=gg.getResults(n)
 for i=1, n do
-gg.addListItems({[1] = {address =jz[i].address+100,flags = 4,freeze = true,value = 70003}})
-gg.clearResults()
-
+gg.addListItems({[1] = {address =jz[i].address+4,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+48,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+100,flags = 4,freeze = true,value = 0}})
+end
 end
 gg.alert("تم كسر الحمايه ... فجرهم 👹")
 end
-end
+
+
+ function hd()
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('30D;10D;0F~1F;257D;3D::17', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('0.08600000292', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(50)
+    gg.editAll('0.04200000272', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('30D;10D;0F~1F;257D;3D::17', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('0.09600000083', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(50)
+    gg.editAll('0.04800000022', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('30D;10D;0F~1F;257D;3D::17', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('0.10000000149', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(50)
+    gg.editAll('0.001', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('90000', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('500000', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('91000', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('500000', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('76000', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('500000', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('79000', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('500000', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('33000', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('500000', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('40000', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(800)
+    gg.editAll('500000', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('0.64999997616;0.89999997616;0.64999997616;1.5;0.80000001192;0.00999999978', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('0.64999997616', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(200)
+    gg.editAll('-999', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('1.79999995232;1.79999995232;4;1.09375', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('0', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('35000', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10)
+    gg.editAll('300000', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_BAD)
+    gg.searchNumber('16000', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('200000', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.toast('Speed Shoot ✔')
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('90.775703430176;0;8;15;16;18;28', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('28', gg.TYPE_FLOAT, false, gg.SIGN_EGUAL, 0, -1)
+    gg.getResults(10)
+    gg.editAll('8000', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber('0.9378669858F;1.0F;0.61365610361F::55', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(850)
+    gg.editAll('9999', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.toast('High Damage ✔')
+  end
+
 
 function b() 
 gg.clearResults()
