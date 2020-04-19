@@ -42,6 +42,7 @@ gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_F
 if gg.getResultCount() == 0 then
 gg.alert("❌ وقف لا تكمل")
 else
+gg.alert("تم كسر الحمايه ... فجرهم 👹")
 gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 n=gg.getResultCount()
 jz=gg.getResults(n)
@@ -51,7 +52,6 @@ gg.addListItems({[1] = {address =jz[i].address+48,flags = 4,freeze = true,value 
 gg.addListItems({[1] = {address =jz[i].address+100,flags = 4,freeze = true,value = 0}})
 end
 end
-gg.alert("تم كسر الحمايه ... فجرهم 👹")
 end
 
 
