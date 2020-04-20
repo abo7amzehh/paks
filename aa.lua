@@ -4,7 +4,8 @@ function split(szFullString, szSeparator) local nFindStartIndex = 1 local nSplit
 function HOME()
 SN = gg.choice({
 "تفعيل الحماية  ",
-    "تفعيل باللوبي ",
+    "ريسيت سريع ",
+   "تفعيل باللوبي ",
       " تفعيل بالساحة",
        "تفعيل بالجيم ",  
     "أنتينا العشب",     
@@ -18,22 +19,36 @@ SN = gg.choice({
 }, nil, "Abo7amzeh hack️")
 if SN == nil then else
 if SN ==  1 then saf() end 
-if SN ==  2 then lo() end 
-if SN ==  3 then nr() end
-if SN ==  4 then gm() end
-if SN ==  5 then antg() end
-if SN ==  6 then sped() end
-if SN ==  7 then ant() end
-if SN ==  8 then b() end
-if SN ==  9 then mw6() end
-if SN ==  10 then wal() end
-if SN ==  11 then sj() end
-if SN == 12 then EXIT() end
+if SN ==  2 then res() end 
+if SN ==  3 then lo() end 
+if SN ==  4 then nr() end
+if SN ==  5 then gm() end
+if SN ==  6 then antg() end
+if SN ==  7 then sped() end
+if SN ==  8 then ant() end
+if SN ==  9 then b() end
+if SN ==  10 then mw6() end
+if SN ==  11 then wal() end
+if SN ==  12 then sj() end
+if SN == 13 then EXIT() end
 end
 PUBGMH = -1
 end
 
-
+function res()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("1.1754945e-37", 16, false, 536870912, 0, -1)
+gg.refineAddress("4E8")
+gg.getResults(30)
+gg.editAll("0", 16)
+gg.sleep(5000)
+gg.searchNumber("0", 16)
+gg.refineAddress("4E8")
+gg.getResults(30)
+gg.editAll("1.1754945e-37", 16)
+gg.clearResults()
+end
 
 function saf()
 gg.clearResults()
