@@ -13,8 +13,8 @@ SN = gg.choice({
    "الأنتين العادي  ",
       "نزول سريع",
 		  	  "أوم",
-			  		  "وال هاك",	
-			  		  	  		  "أزالة الضباب",				  		  
+	  "وال هاك",	
+			 "أزالة الضباب",							  		  
     " خروج "
 }, nil, "Abo7amzeh hack️")
 if SN == nil then else
@@ -68,8 +68,6 @@ gg.addListItems({[1] = {address =jz[i].address+100,flags = 4,freeze = true,value
 end
 end
 end
-
-
 function sj()
  gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
@@ -191,36 +189,41 @@ gg.setRanges(gg.REGION_C_DATA)
   gg.getResults(100)
   gg.editAll("9999", gg.TYPE_FLOAT)
 gg.toast("🌡ʜᴇᴀᴅ sʜᴏᴛ")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(92)
-gg.editAll("-89999960", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(92)
-gg.editAll("-99999960", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1;20.51941871643;2.04908943176;-86.45767974854;-92.2311706543;16.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("100", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("245", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("999999", gg.TYPE_FLOAT)
-gg.toast("ماجيك قوى يازميلى 😂 ")
+ gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("88.150177001I5;15:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("500", gg.TYPE_FLOAT)
+  gg.toast("45%")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("-88.66F08D2895E;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("500", gg.TYPE_FLOAT)
+  gg.toast("75%")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("90.4850692749;2G.25;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("27.25;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("500", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🚀 Bullet Tracking ON 🚀")
+ gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('90.4850692749F;16', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('16', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(20)
+    gg.editAll('99', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber('9.20161819458;23;25;30.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResultCount()
+    gg.searchNumber('25;30.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10)
+    gg.editAll('240', gg.TYPE_FLOAT)
+    gg.toast('✖ ʙʀᴜᴛᴀʟ ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ')
 end
 function ant()
 if antenna == off then
