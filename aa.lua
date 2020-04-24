@@ -52,6 +52,28 @@ end
 
 function saf()
 gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1,130,852,172;1,852,139,884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("فشل الخطوة الأولى")
+else
+gg.alert("نجاح الخطوة الأولى")
+gg.getResults(10)
+gg.editAll("0", gg.TYPE_DWORD)
+end
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+debug.getinfo(1, nil, nil)
+gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("فشل الخطوة الثانيه")
+else
+gg.alert("نجاح الخطوة الثانيه")
+gg.getResults(10)
+debug.getinfo(1, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+end
+gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)                                     
 if gg.getResultCount() == 0 then
