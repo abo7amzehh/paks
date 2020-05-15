@@ -113,7 +113,6 @@ if SN == 12 then EXIT() end
 end
 PUBGMH = -1
 end
-
 function a()
  edit({
 {gg.REGION_C_ALLOC}, --Values Ranges
@@ -132,31 +131,68 @@ function a()
 gg.clearResults()
 gg.alert("تم كسر الحمايه ... فجرهم 👹")
 end
-
 function k()
-gg.clearResults()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1,130,852,172;1,852,139,884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.toast("fail")
+  gg.clearResults()
+  gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber('2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.toast('90%')
-  if gg.getResultCount() == 0 then
-  gg.alert("❌ وقف لا تكمل")
-  else
-   gg.alert("تم كسر الحمايه ... فجرهم 👹")
-    gg.searchNumber('2.2958874e-41', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    n = gg.getResultCount()
-    jz = gg.getResults(n)
-    for _FORV_19_ = 1, n do
-      gg.addListItems({
-        [1] = {
-          address = jz[_FORV_19_].address + 100,
-          flags = 4,
-          freeze = true,
-          value = 0
-        }
-      })
-    end
-end
-end
+  gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.toast("step1 done")
+  gg.clearResults()
+  edit({
+    {
+      gg.REGION_C_ALLOC
+    },
+    {"Bypass"},
+    {16384, 4},
+    {
+      16384,
+      4,
+      4
+    },
+    {
+      16384,
+      8,
+      4
+    },
+    {
+      16384,
+      12,
+      4
+    },
+    {
+      16384,
+      16,
+      4
+    },
+    {
+      16384,
+      20,
+      4
+    },
+    {
+      16384,
+      508,
+      4
+    }
+  }, {
+    {
+      0,
+      100,
+      4,
+      true
+    }
+  })
+  gg.clearResults()
+gg.alert("تم كسر الحمايه ... فجرهم 👹")
+end-- Sniper
 
 
 function sj()
