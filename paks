@@ -132,67 +132,106 @@ gg.clearResults()
 gg.alert("تم كسر الحمايه ... فجرهم 👹")
 end
 function k()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("1,130,852,172;1,852,139,884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("0", gg.TYPE_DWORD)
-  gg.toast("fail")
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("0", gg.TYPE_DWORD)
-  gg.toast("step1 done")
-  gg.clearResults()
-  edit({
-    {
-      gg.REGION_C_ALLOC
-    },
-    {"Bypass"},
-    {16384, 4},
-    {
-      16384,
-      4,
-      4
-    },
-    {
-      16384,
-      8,
-      4
-    },
-    {
-      16384,
-      12,
-      4
-    },
-    {
-      16384,
-      16,
-      4
-    },
-    {
-      16384,
-      20,
-      4
-    },
-    {
-      16384,
-      508,
-      4
-    }
-  }, {
-    {
-      0,
-      100,
-      4,
-      true
-    }
-  })
-  gg.clearResults()
-gg.alert("تم كسر الحمايه ... فجرهم 👹")
-end-- Sniper
+   gg.setRanges(gg.REGION_C_ALLOC)
+    gg.searchNumber("67109633", gg.TYPE_DWORD)
+    gg.getResults(50000)
+    gg.editAll("0", gg.TYPE_DWORD)
+    gg.clearResults()
+ os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+      os.remove("/storage/emulated/0/tencent")
+      os.remove("/storage/emulated/0/MidasOverse")
+      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache")
+      os.remove("/storage/emulated/0/tencent")
+      os.remove("/storage/emulated/0/MidasOverse")
+      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog")
+      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt")
+      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt")
+      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json")
+      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache")
+      os.remove("/storage/emulated/0/tencent")
+      os.remove("/storage/emulated/0/MidasOverse")
+      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/tbslog")
+      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/login-identifier.txt")
+      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/cacheFile.txt")
+      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/vmpcloudconfig.json")
+      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+      gg.clearResults()
+      gg.setRanges(gg.REGION_C_ALLOC)
+      gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      if gg.getResultCount() == 0 then
+      gg.alert("وقف لا تكمل.....")
+      else
+     gg.alert("تم كسر الحماية ... فجرهم 😎")
+      gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      n = gg.getResultCount()
+      jz = gg.getResults(n)
+      for i = 1, n do
+      gg.addListItems({
+      [1] = { address = jz[i].address - 252, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address - 236, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address - 232, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address - 72, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address - 68, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address - 64, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 30, flags = 4, freeze = true, value = 119 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 130, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 180, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 200, flags = 4, freeze = true, value = 4451 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 300, flags = 4, freeze = true, value = 0 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 310, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 360, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 450, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 650, flags = 4, freeze = true, value = 70086 }
+      })
+      gg.addListItems({
+      [1] = { address = jz[i].address + 800, flags = 4, freeze = true, value = 70086 }
+      })
+      end
+ end
+end
 
 
 function sj()
