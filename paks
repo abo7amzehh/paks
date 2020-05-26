@@ -361,6 +361,14 @@ end
 
 
 function lo()
+gg.clearResults()
+ gg.setRanges(8)
+  gg.searchNumber("360;-360;180;0.0001;1478828288:97", 16, false, 536870912, 0, -1)
+  gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
+  gg.getResults(200)
+  gg.editAll("500", 16, false, 536870912, 0, -1)
+  gg.clearResults()
+    gg.toast("⁦⚜️⁩تم تفعيل ايم بوت ⚜️")
   gg.clearResults()
   gg.setRanges(gg.REGION_C_DATA)
   gg.searchNumber("2015175168", 16, false, 536870912, 0, -1)
