@@ -15,8 +15,7 @@ SN = gg.choice({
       " تفعيل بالساحة",
        "تفعيل بالجيم ",  
     "انتينا العشب",     
-   "القفز  التلقائي",	
-   "الأيباد  ",
+   "القفز  التلقائي",	  
       "نزول سريع",
 		  	  "أوم",
 	  "وال هاك",										  		  
@@ -30,11 +29,10 @@ if SN ==  4 then nr() end
 if SN ==  5 then gm() end
 if SN ==  6 then antg() end
 if SN ==  7 then sj() end
-if SN ==  8 then cam() end
-if SN ==  9 then b() end
-if SN ==  10 then mw6() end
-if SN ==  11 then wal() end
-if SN == 12 then EXIT() end
+if SN ==  8 then b() end
+if SN ==  9 then mw6() end
+if SN ==  10 then wal() end
+if SN == 11 then EXIT() end
 end
 PUBGMH = -1
 end
@@ -287,37 +285,6 @@ gg.toast("🎯ɴᴏ ʀᴇᴄᴏɪʟ")
     gg.getResults(10)
     gg.editAll('240', gg.TYPE_FLOAT)
     gg.toast('✖ ʙʀᴜᴛᴀʟ ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ')
-end
-function cam()
-if th == off then
-gg.clearResults()
-qmnb = {
-{["memory"] = 32},
-{["name"] = "6th"},
-{["value"] = 4715268810984259584, ["type"] = 32},
-{["lv"] = 1130102784, ["offset"] = -24, ["type"] = 32},
-}
-qmxg = {
-{["value"] = 438, ["offset"] = -24, ["type"] = 16},
-}
-xqmnb(qmnb)
-gg.toast("📽6th")
-th = on
-else
-gg.clearResults()
-qmnb = {
-{["memory"] = 32},
-{["name"] = "6th"},
-{["value"] = 4715268810984259584, ["type"] = 32},
-{["lv"] = 1138425856, ["offset"] = -24, ["type"] = 32},
-}
-qmxg = {
-{["value"] = 220, ["offset"] = -24, ["type"] = 16},
-}
-xqmnb(qmnb)
-gg.toast("📽6th")
-th = off
-end
 end
 
 function wal()
