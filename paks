@@ -259,6 +259,14 @@ function antg()
 end
 
 function gm() 
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-980;0.30000001192", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-980", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("-490", gg.TYPE_FLOAT)
+gg.toast("√ Low Gravity Activated √")
+gg.clearResults()
 qmnb = {
 {["memory"] = 32},
 {["name"] = "antenna"},
