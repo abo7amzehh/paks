@@ -51,7 +51,7 @@ end
 end
 gg.addListItems((gg.getResults(30101996, nil, nil, nil, nil, nil, nil, nil, nil)))
 gg.clearResults()
-gg.toast("متسبنيش يابو الحمز متسبنيش")
+gg.toast("تم التفعيل أدعس....")
 end
 function k()
  gg.clearResults()
@@ -73,7 +73,7 @@ end
 end
 gg.addListItems((gg.getResults(30101996, nil, nil, nil, nil, nil, nil, nil, nil)))
 gg.clearResults()
-gg.toast("متسبنيش يابو الحمز متسبنيش")
+gg.toast("تم التفعيل أدعس....")
 end
 function fog()
 gg.clearResults()
