@@ -280,31 +280,64 @@ qmxg = {
 }
 xqmnb(qmnb)
  gg.toast("🚀 headshoot 🚀")
+gg.clearResults()
 qmnb = {
 {["memory"] = 32},
-{["name"] = "CLOWNANTN"},
-{["value"] = 0.98900711536, ["type"] = 16},
-{["lv"] = 0.14786840975, ["offset"] = 4, ["type"] = 16},
-{["lv"] = 1.00000011921, ["offset"] = 36, ["type"] = 16},
+{["name"] = "antenna"},
+{["value"] = 4804934254803878643, ["type"] = 32},
+{["lv"] = -4410762456449774017, ["offset"] = 4, ["type"] = 32},
+{["lv"] = 4575657222473777152, ["offset"] = 12, ["type"] = 32},
 }
 qmxg = {
-{["value"] = 16000, ["offset"] = 0, ["type"] = 16},
+{["value"] = 4610560119594024960, ["offset"] = 0, ["type"] = 32},
+{["value"] = -4410762456495030272, ["offset"] = 4, ["type"] = 32},
+{["value"] = 4575657222557253632, ["offset"] = 12, ["type"] = 32},
 
 }
 xqmnb(qmnb)
+gg.clearResults()
+ antenna = on
  gg.toast("🎶ᴀɴᴛᴇɴɴᴀ")
+gg.clearResults()
 qmnb = {
-{["memory"] = 8},
-{["name"] = "CLOWNLR"},
-{["value"] = -1.3620364e28, ["type"] = 16},
-{["lv"] = 6.1630126e-33, ["offset"] = 32, ["type"] = 16},
-{["lv"] = 0.00048828544, ["offset"] = 1072, ["type"] = 16},
+{["memory"] = 32},
+{["name"] = "nor"},
+{["value"] = 8247572459728890950, ["type"] = 32},
+{["lv"] = 32481181722559348, ["offset"] = 4, ["type"] = 32},
 }
 qmxg = {
-{["value"] = 0, ["offset"] = 0, ["type"] = 16},
+{["value"] = 1634692266, ["offset"] = 0, ["type"] = 4},
 
 }
 xqmnb(qmnb)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+NL100OFF1=gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+NL100OFF2=gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-1.2382424e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-    7.1608877e24::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+NL100OFF3=gg.getResults(2)
+gg.editAll("90", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("909391408;808923191::8", gg.TYPE_DWORD)
+NL100OFF4=gg.getResults(999)
+gg.editAll("1089886885", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("909391408", gg.TYPE_DWORD)
+NL100OFF5=gg.getResults(999)
+gg.editAll("1089886885", gg.TYPE_DWORD)
 gg.toast("🎯ɴᴏ ʀᴇᴄᴏɪʟ")
 qmnb = {
 {["memory"] = 8},
@@ -355,24 +388,13 @@ function antg()
 end
 
 function gm() 
-gg.clearResults()
-qmnb = {
-{["memory"] = 32},
-{["name"] = "antenna"},
-{["value"] = 4804934254803878643, ["type"] = 32},
-{["lv"] = -4410762456449774017, ["offset"] = 4, ["type"] = 32},
-{["lv"] = 4575657222473777152, ["offset"] = 12, ["type"] = 32},
-}
-qmxg = {
-{["value"] = 4610560119594024960, ["offset"] = 0, ["type"] = 32},
-{["value"] = -4410762456495030272, ["offset"] = 4, ["type"] = 32},
-{["value"] = 4575657222557253632, ["offset"] = 12, ["type"] = 32},
-
-}
-xqmnb(qmnb)
-gg.clearResults()
- antenna = on
- gg.toast("🎶ᴀɴᴛᴇɴɴᴀ")
+ gg.clearResults()
+    gg.setRanges(32)
+    gg.searchNumber('0.98900693655~0.98900723457;0.14786802232~0.14786840975;1.1920926e-7::9', 16, false, 536870912, 0, -1)
+    gg.searchNumber('0.98900693655~0.98900723457', 16, false, 536870912, 0, -1)
+    gg.getResults(100)
+    gg.editAll('16000', 16)
+    gg.toast('A N T E N A OK ')
  gg.clearResults()
   gg.setRanges(32)
   gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", 16, false, 536870912, 0, -1)
@@ -381,16 +403,17 @@ gg.clearResults()
   gg.editAll("1.06", 16)
   gg.clearResults()
   gg.toast("⁦تم")
-   gg.clearResults()
-  gg.setRanges(gg.REGION_BAD) 
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearResults()
-gg.searchNumber("220;178;15 ",gg.TYPE_FLOAT, false,gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("220",gg.TYPE_FLOAT, false,gg.SIGN_EQUAL, 0, -1)
-gg.getResults(300)
-gg.editAll("438",gg.TYPE_FLOAT)
-gg.clearResults()
+ gg.clearResults()
+qmnb = {
+{["memory"] = 32},
+{["name"] = "6th"},
+{["value"] = 4715268810984259584, ["type"] = 32},
+{["lv"] = 1130102784, ["offset"] = -24, ["type"] = 32},
+}
+qmxg = {
+{["value"] = 438, ["offset"] = -24, ["type"] = 16},
+}
+xqmnb(qmnb)
 gg.toast("(منظور الايباد) تم ")
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
 os.remove("/storage/emulated/0/tencent")
@@ -440,31 +463,22 @@ end
 
 
 function lo()
-qmnb = {
-{["memory"] = 8},
-{["name"] = "CLOWNAMBT"},
-{["value"] = 0.0001, ["type"] = 16},
-{["lv"] = -1.0153182e28, ["offset"] = 8, ["type"] = 16},
-{["lv"] = -3.7444097e28, ["offset"] = 20, ["type"] = 16},
-}
-qmxg = {
-{["value"] = 9999, ["offset"] = 0, ["type"] = 16},
-
-}
-xqmnb(qmnb)
+gg.clearResults()
+ gg.setRanges(8)
+  gg.searchNumber("360;-360;180;0.0001;1478828288:97", 16, false, 536870912, 0, -1)
+  gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
+  gg.getResults(200)
+  gg.editAll("500", 16, false, 536870912, 0, -1)
+  gg.clearResults()
     gg.toast("⁦⚜️⁩تم تفعيل ايم بوت ⚜️")
-qmnb = {
-{["memory"] = 32},
-{["name"] = "CLOWNNG"},
-{["value"] = 0.000005, ["type"] = 16},
-{["lv"] = 2.5223372e-43, ["offset"] = 20, ["type"] = 16},
-{["lv"] = 2.5223372e-43, ["offset"] = 24, ["type"] = 16},
-}
-qmxg = {
-{["value"] = 2.0, ["offset"] = 0, ["type"] = 16},
-
-}
-xqmnb(qmnb)
+   gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("7499628;1935766087;29541::", 4, false, 536870912, 0, -1)
+gg.getResults(1)
+gg.searchNumber("29541", 4, false, 536870912, 0, -1)
+gg.getResultsCount()
+gg.getResults(1)
+gg.editAll("1886999666", 4)
 gg.toast("No Grass Erangel activated!")
 end
 
