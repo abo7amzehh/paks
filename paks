@@ -12,7 +12,9 @@ SN = gg.choice({
    "أزالة الضباب",	  
       "نزول سريع",
 		  	  "أوم",
-	  "وال هاك",										  		  
+	  "وال هاك",		
+	  	  "أيمبوت كافر",		
+	  	    	  "زحف سريع",								  		  
     " خروج "
 }, nil, "Abo7amzeh hack️")
 if SN == nil then else
@@ -27,7 +29,9 @@ if SN ==  8 then fog() end
 if SN ==  9 then b() end
 if SN ==  10 then mw6() end
 if SN ==  11 then wal() end
-if SN == 12 then EXIT() end
+if SN ==  12 then dab() end
+if SN ==  13 then C12() end
+if SN == 14 then EXIT() end
 end
 PUBGMH = -1
 end
@@ -161,6 +165,21 @@ gg.addListItems((gg.getResults(30101996, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.clearResults()
 gg.toast("تم التفعيل أدعس....")
 end
+
+function C12()
+gg.clearResults()
+qmnb = {
+{["memory"] = 32},
+{["name"] = "knock"},
+{["value"] = 4731031409883780004, ["type"] = 32},
+{["lv"] = 1065353216, ["offset"] = -84, ["type"] = 32},
+}
+qmxg = {
+{["value"] = 999, ["offset"] = -84, ["type"] = 16},
+}
+xqmnb(qmnb)
+gg.toast("💨sᴘᴇᴇᴅᴋɴᴏᴄᴋ")
+end
 function fog()
 gg.clearResults()
   gg.setRanges(gg.REGION_C_DATA)
@@ -171,7 +190,19 @@ gg.clearResults()
   gg.editAll("0", gg.TYPE_DWORD)
   gg.clearResults()
 end
-
+function dab()
+gg.searchNumber("2046820354;-336587221:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2046820354", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("2046820353", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("2015175168", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("أيمبوت كافر")
+end
 function sj()
 gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -213,101 +244,80 @@ function mw6()
     gg.toast('AWM Burst ACTIVATED')
   end
 function nr()
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-gg.searchNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-gg.searchNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-gg.searchNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-gg.getResults(3)
-gg.editAll("180",gg.TYPE_FLOAT)
-gg.clearResults()
-revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
- if v.flags == gg.TYPE_FLOAT then
-  v.value = "200"
-  v.freeze = true
- end
-end
-gg.addListItems(t)
-t = nil
-gg.editAll("9999",gg.TYPE_FLOAT)
- gg.toast("🚀 headshoot 🚀")
-gg.clearResults()
 qmnb = {
 {["memory"] = 32},
-{["name"] = "antenna"},
-{["value"] = 4804934254803878643, ["type"] = 32},
-{["lv"] = -4410762456449774017, ["offset"] = 4, ["type"] = 32},
-{["lv"] = 4575657222473777152, ["offset"] = 12, ["type"] = 32},
+{["name"] = ""},
+{["value"] = -1028565751, ["type"] = 4},
+{["lv"] = 1104150528, ["offset"] = 8, ["type"] = 4},
 }
 qmxg = {
-{["value"] = 4610560119594024960, ["offset"] = 0, ["type"] = 32},
-{["value"] = -4410762456495030272, ["offset"] = 4, ["type"] = 32},
-{["value"] = 4575657222557253632, ["offset"] = 12, ["type"] = 32},
+{["value"] = -460, ["offset"] = 8, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+qmnb = {
+{["memory"] = 32},
+{["name"] = ""},
+{["value"] = -1028556113, ["type"] = 4},
+{["lv"] = 1105199104, ["offset"] = 8, ["type"] = 4},
+}
+qmxg = {
+{["value"] = -560, ["offset"] = 8, ["type"] = 16},
 
 }
 xqmnb(qmnb)
 gg.clearResults()
+qmnb = {
+{["memory"] = 32},
+{["name"] = "headshot"},
+{["value"] = 1106509824, ["type"] = 4},
+{["lv"] = 1103626240, ["offset"] = -4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 240, ["offset"] = 0, ["type"] = 16},
+{["value"] = 240, ["offset"] = -4, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+ gg.toast("🚀 headshoot 🚀")
+qmnb = {
+{["memory"] = 32},
+{["name"] = "CLOWNANTN"},
+{["value"] = 0.98900711536, ["type"] = 16},
+{["lv"] = 0.14786840975, ["offset"] = 4, ["type"] = 16},
+{["lv"] = 1.00000011921, ["offset"] = 36, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 16000, ["offset"] = 0, ["type"] = 16},
+
+}
+xqmnb(qmnb)
  gg.toast("🎶ᴀɴᴛᴇɴɴᴀ")
-gg.clearResults() 
-gg.setRanges(8) 
-gg.searchNumber("-1 331 928 324 405 720 525", 32, false, gg.SIGN_EQUAL, 0, -1) 
-gg.refineAddress("A38", -1, 32, gg.SIGN_EQUAL, 0, -1) 
-NL100OFF1=gg.getResults(1337) 
-gg.editAll("-1 331 928 328 390 574 080", 32) 
-gg.clearResults() 
-gg.searchNumber("-1 387 800 265 460 020 720", 32, false, gg.SIGN_EQUAL, 0, -1) 
-gg.refineAddress("6F8", -1, 32) 
-NL100OFF2=gg.getResults(1337) 
-gg.editAll("-1 387 800 268 364 578 816", 32) 
-gg.clearResults() 
-gg.searchNumber("-2 220 275 582 962 234 864", 32, false, gg.SIGN_EQUAL, 0, -1) 
-gg.refineAddress("26C", -1, 32, gg.SIGN_EQUAL, 0, -1) 
-NL100OFF3=gg.getResults(1337) 
-gg.editAll("-2 220 275 586 956 263 424", 32) 
-gg.clearResults() 
-gg.searchNumber("4 827 858 804 535 200 272", 32, false, gg.SIGN_EQUAL, 0, -1) 
-NL100OFF4=gg.getResults(1337) 
-gg.editAll("4 827 858 800 541 171 712", 32) 
-gg.clearResults()
+qmnb = {
+{["memory"] = 8},
+{["name"] = "CLOWNLR"},
+{["value"] = -1.3620364e28, ["type"] = 16},
+{["lv"] = 6.1630126e-33, ["offset"] = 32, ["type"] = 16},
+{["lv"] = 0.00048828544, ["offset"] = 1072, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = 0, ["type"] = 16},
+
+}
+xqmnb(qmnb)
 gg.toast("🎯ɴᴏ ʀᴇᴄᴏɪʟ")
- gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("88.150177001I5;15:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(2)
-  gg.editAll("500", gg.TYPE_FLOAT)
-  gg.toast("45%")
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("-88.66F08D2895E;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(2)
-  gg.editAll("500", gg.TYPE_FLOAT)
-  gg.toast("75%")
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("90.4850692749;2G.25;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("27.25;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(2)
-  gg.editAll("500", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("🚀 Bullet Tracking ON 🚀")
- gg.clearResults()
-    gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber('90.4850692749F;16', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber('16', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.getResults(20)
-    gg.editAll('99', gg.TYPE_FLOAT)
-    gg.clearResults()
-    gg.searchNumber('9.20161819458;23;25;30.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.getResultCount()
-    gg.searchNumber('25;30.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.getResults(10)
-    gg.editAll('240', gg.TYPE_FLOAT)
+qmnb = {
+{["memory"] = 8},
+{["name"] = "CLOWNMB"},
+{["value"] = 0.10000000149, ["type"] = 16},
+{["lv"] = 3.3382777e-37, ["offset"] = 8, ["type"] = 16},
+{["lv"] = 3.3382723e-37, ["offset"] = 16, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 55, ["offset"] = 0, ["type"] = 16},
+
+}
+xqmnb(qmnb)
     gg.toast('✖ ʙʀᴜᴛᴀʟ ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ')
 end
 
@@ -430,21 +440,31 @@ end
 
 
 function lo()
-gg.clearResults()
- gg.setRanges(8)
-  gg.searchNumber("360;-360;180;0.0001;1478828288:97", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("500", 16, false, 536870912, 0, -1)
-  gg.clearResults()
+qmnb = {
+{["memory"] = 8},
+{["name"] = "CLOWNAMBT"},
+{["value"] = 0.0001, ["type"] = 16},
+{["lv"] = -1.0153182e28, ["offset"] = 8, ["type"] = 16},
+{["lv"] = -3.7444097e28, ["offset"] = 20, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 9999, ["offset"] = 0, ["type"] = 16},
+
+}
+xqmnb(qmnb)
     gg.toast("⁦⚜️⁩تم تفعيل ايم بوت ⚜️")
-gg.setRanges(32)
-gg.searchNumber("7499628;1935766087;29541::", 4, false, 536870912, 0, -1)
-gg.getResults(1)
-gg.searchNumber("29541", 4, false, 536870912, 0, -1)
-gg.getResultsCount()
-gg.getResults(1)
-gg.editAll("1886999666", 4)
+qmnb = {
+{["memory"] = 32},
+{["name"] = "CLOWNNG"},
+{["value"] = 0.000005, ["type"] = 16},
+{["lv"] = 2.5223372e-43, ["offset"] = 20, ["type"] = 16},
+{["lv"] = 2.5223372e-43, ["offset"] = 24, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 2.0, ["offset"] = 0, ["type"] = 16},
+
+}
+xqmnb(qmnb)
 gg.toast("No Grass Erangel activated!")
 end
 
