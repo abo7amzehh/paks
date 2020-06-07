@@ -8,13 +8,13 @@ SN = gg.choice({
       " تفعيل بالساحة",
        "تفعيل بالجيم ",  
     "انتينا العشب",     
+     "زحف سريع",	
    "القفز  التلقائي",	  
    "أزالة الضباب",	  
       "نزول سريع",
 		  	  "أوم",
 	  "وال هاك",		
-	  	  "أيمبوت كافر",		
-	  	    	  "زحف سريع",								  		  
+	  	  "أيمبوت كافر",		  	    	 							  		  
     " خروج "
 }, nil, "Abo7amzeh hack️")
 if SN == nil then else
@@ -24,13 +24,13 @@ if SN ==  3 then lo() end
 if SN ==  4 then nr() end
 if SN ==  5 then gm() end
 if SN ==  6 then antg() end
-if SN ==  7 then sj() end
-if SN ==  8 then fog() end
-if SN ==  9 then b() end
-if SN ==  10 then mw6() end
-if SN ==  11 then wal() end
-if SN ==  12 then dab() end
-if SN ==  13 then C12() end
+if SN ==  7 then C12() end
+if SN ==  8 then sj() end
+if SN ==  9 then fog() end
+if SN ==  10 then b() end
+if SN ==  11 then mw6() end
+if SN ==  12 then wal() end
+if SN ==  13 then dab() end
 if SN == 14 then EXIT() end
 end
 PUBGMH = -1
