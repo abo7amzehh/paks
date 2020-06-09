@@ -14,7 +14,7 @@ SN = gg.choice({
       "نزول سريع",
 		  	  "أوم",
 	  "وال هاك",		
-	  	  "أيمبوت كافر",		  	    	 							  		  
+	  	  "ريسيت سريع",		  	    	 							  		  
     " خروج "
 }, nil, "Abo7amzeh hack️")
 if SN == nil then else
@@ -101,40 +101,69 @@ gg.clearResults()
 gg.toast("تم التفعيل أدعس....")
 end
 function k()
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+os.remove("/storage/emulated/0/tencent")
+os.remove("/storage/emulated/0/MidasOverse")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache")
+os.remove("/storage/emulated/0/tencent")
+os.remove("/storage/emulated/0/MidasOverse")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache")
+os.remove("/storage/emulated/0/tencent")
+os.remove("/storage/emulated/0/MidasOverse")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/ODPaks")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir")
+ gg.clearResults()
+ os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("67109377", 4, false, 536870912, 0, -1)
-gg.refineNumber("67109377", 4, false, 536870912, 0, -1)
-if gg.getResultCount() == 0 then
-gg.alert("⚠️فشل بالخطوة ألاولى اغلق اللعبه وحاول مجددا")
-else
-local searchCount = gg.getResultCount()
-local searchResults = gg.getResults(searchCount)
-for i, v in ipairs(searchResults) do
-  v.freeze = true
-  v.flags = 4
-  v.value = 0
+gg.setRanges(gg.REGION_C_ALLOC)gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("\"67109377\"", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("\"67109377\"", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(30101996, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(30101996, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "\"0\""
+i.freeze = true
 end
-gg.addListItems(searchResults)
+end
+gg.addListItems((gg.getResults(30101996, nil, nil, nil, nil, nil, nil, nil, nil)))
 gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("67109633", 4, false, 536870912, 0, -1)
-gg.refineNumber("67109633", 4, false, 536870912, 0, -1)
-if gg.getResultCount() == 0 then
-gg.alert("⚠️فشل بالخطوة الثانية اغلق اللعبه وحاول مجددا")
-else
-local searchCount = gg.getResultCount()
-local searchResults = gg.getResults(searchCount)
-for i, v in ipairs(searchResults) do
-  v.freeze = true
-  v.flags = 4
-  v.value = 0
-end
-gg.addListItems(searchResults)
-gg.clearResults()
-gg.alert("بايباس v1")
-end
-end
+gg.toast("تم التفعيل أدعس....")
 end
 
 
@@ -163,17 +192,17 @@ gg.clearResults()
   gg.clearResults()
 end
 function dab()
-gg.searchNumber("2046820354;-336587221:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2046820354", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("2046820353", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("2015175168", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("أيمبوت كافر")
+gg.clearResults() 
+gg.setVisible(false) 
+gg.setRanges(gg.REGION_C_DATA) 
+gg.searchNumber("1.1754945e-37", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) gg.refineAddress("9CC",-1,gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(1) 
+gg.editAll("0", gg.TYPE_FLOAT)  
+gg.sleep(5000) 
+gg.setVisible(false) 
+gg.editAll("1.1754945e-37", gg.TYPE_FLOAT) 
+gg.toast(" On data") 
+gg.clearResults() 
 end
 function sj()
 gg.clearResults()
