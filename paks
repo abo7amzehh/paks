@@ -170,6 +170,7 @@ sl = gg.getResultCount()
 if 100 < sl then
   sl = 100
 end
+gg.toast("لا تخشى شيء")
 for i = 1, sl do
   dzy = jg[i].address
   gg.addListItems({
@@ -208,6 +209,7 @@ sl = gg.getResultCount()
 if 100 < sl then
   sl = 100
 end
+gg.toast("روح طالعه")
 for i = 1, sl do
   dzy = jg[i].address
   gg.addListItems({
