@@ -210,7 +210,7 @@ sl = gg.getResultCount()
 if 100 < sl then
   sl = 100
 end
-gg. toast("أدعس أبو طلال")
+gg.toast("أدعس أبو طلال")
 for i = 1, sl do
   dzy = jg[i].address
   gg.addListItems({
