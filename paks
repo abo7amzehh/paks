@@ -186,6 +186,42 @@ function mw6()
     gg.toast('AWM Burst ACTIVATED')
   end
 function nr()
+qmnb = {
+{["memory"] = 32},
+{["name"] = ""},
+{["value"] = -1028565751, ["type"] = 4},
+{["lv"] = 1104150528, ["offset"] = 8, ["type"] = 4},
+}
+qmxg = {
+{["value"] = -460, ["offset"] = 8, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+qmnb = {
+{["memory"] = 32},
+{["name"] = ""},
+{["value"] = -1028556113, ["type"] = 4},
+{["lv"] = 1105199104, ["offset"] = 8, ["type"] = 4},
+}
+qmxg = {
+{["value"] = -560, ["offset"] = 8, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+qmnb = {
+{["memory"] = 32},
+{["name"] = "headshot"},
+{["value"] = 1106509824, ["type"] = 4},
+{["lv"] = 1103626240, ["offset"] = -4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 240, ["offset"] = 0, ["type"] = 16},
+{["value"] = 240, ["offset"] = -4, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+ gg.toast("🚀 headshoot 🚀")
 gg.clearResults()
 qmnb = {
 {["memory"] = 32},
@@ -245,27 +281,19 @@ gg.searchNumber("909391408", gg.TYPE_DWORD)
 NL100OFF5=gg.getResults(999)
 gg.editAll("1089886885", gg.TYPE_DWORD)
 gg.toast("🎯ɴᴏ ʀᴇᴄᴏɪʟ")
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("88.15017700195;15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-hb1 = gg.getResults(20)
-gg.editAll("98", gg.TYPE_FLOAT)
-hb01 = gg.getResults(20)
-gg.clearResults()
-gg.searchNumber("-88.66608428955;16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-hb2 = gg.getResults(20)
-gg.editAll("68", gg.TYPE_FLOAT)
-hb02 = gg.getResults(20)
-gg.clearResults()
-gg.searchNumber("90.4850692749;27.25;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("27.25;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-hb3 = gg.getResults(20)
-gg.editAll("88", gg.TYPE_FLOAT)
-hb03 = gg.getResults(20)
-gg.clearResults()
-gg.toast("Magic Bullet + headshot100% activated")
+qmnb = {
+{["memory"] = 8},
+{["name"] = "CLOWNMB"},
+{["value"] = 0.10000000149, ["type"] = 16},
+{["lv"] = 3.3382777e-37, ["offset"] = 8, ["type"] = 16},
+{["lv"] = 3.3382723e-37, ["offset"] = 16, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 55, ["offset"] = 0, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+    gg.toast('✖ ʙʀᴜᴛᴀʟ ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ')
 end
 
 function wal()
