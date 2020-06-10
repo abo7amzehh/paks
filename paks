@@ -469,7 +469,24 @@ function antg()
 end
 
 function gm() 
+gg.clearResults()
+qmnb = {
+{["memory"] = 32},
+{["name"] = "antenna"},
+{["value"] = 4804934254803878643, ["type"] = 32},
+{["lv"] = -4410762456449774017, ["offset"] = 4, ["type"] = 32},
+{["lv"] = 4575657222473777152, ["offset"] = 12, ["type"] = 32},
+}
+qmxg = {
+{["value"] = 4610560119594024960, ["offset"] = 0, ["type"] = 32},
+{["value"] = -4410762456495030272, ["offset"] = 4, ["type"] = 32},
+{["value"] = 4575657222557253632, ["offset"] = 12, ["type"] = 32},
 
+}
+xqmnb(qmnb)
+gg.clearResults()
+ antenna = on
+ gg.toast("🎶ᴀɴᴛᴇɴɴᴀ")
  gg.clearResults()
   gg.setRanges(32)
   gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", 16, false, 536870912, 0, -1)
