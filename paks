@@ -34,7 +34,8 @@ end
 PUBGMH = -1
 end
 function k()
- gg.setRanges(gg.REGION_C_ALLOC)
+ 
+  gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("67109633", gg.TYPE_DWORD)
     gg.getResults(50000)
     gg.editAll("0", gg.TYPE_DWORD)
@@ -78,7 +79,7 @@ function k()
       if gg.getResultCount() == 0 then
       gg.alert("خطأ اغلق اللعبه وحاول مجددا❌")
       else
-     gg.alert("تم التفعيل منتهية")
+     gg.alert("تم التفعيل منتهيه")
       gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       n = gg.getResultCount()
       jz = gg.getResults(n)
@@ -2565,12 +2566,14 @@ function k()
   gg.getValues({
     [1] = {address = 532994673364, flags = 4}
   })
-end
+  
    os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
 os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
 end
+
+
 
 function C12()
 gg.clearResults()
