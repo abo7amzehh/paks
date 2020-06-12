@@ -2,8 +2,8 @@ function split(szFullString, szSeparator) local nFindStartIndex = 1 local nSplit
 
 function HOME()
 SN = gg.choice({
+ "🛡 تفعيل الحماية لجميع النسخ 🛡",
 "ريسيت سريع ",
-    "تفعيل الحماية لجميع النسخ ",
    "تفعيل باللوبي ",
       " تفعيل بالساحة",
        "تفعيل بالجيم ",  
@@ -17,8 +17,8 @@ SN = gg.choice({
     " خروج "
 }, nil, "Abo7amzeh hack️")
 if SN == nil then else
-if SN ==  1 then a() end 
-if SN ==  2 then k() end 
+if SN ==  1 then k() end 
+if SN ==  2 then a() end 
 if SN ==  3 then lo() end 
 if SN ==  4 then nr() end
 if SN ==  5 then gm() end
@@ -49,9 +49,6 @@ else
   if gg.getResultsCount() == 0 then
     gg.alert("لم يتم التفعيل حاول مرة أخرى")
   else
-  gg.toast("تم التفعيل ")
-gg.clearResults()
-gg.alert("منتهيه ")
     gg.getResults(1)
     gg.addListItems({
       [1] = {
@@ -182,6 +179,9 @@ gg.alert("منتهيه ")
       }
     })
     gg.clearResults()   
+     gg.toast("تم التفعيل ")
+gg.clearResults()
+gg.alert("☢ منتهيه ☢ ")
    end
  end
    os.remove("src/main/java/com/google/errorprone/annotations")
