@@ -2,8 +2,8 @@ function split(szFullString, szSeparator) local nFindStartIndex = 1 local nSplit
 
 function HOME()
 SN = gg.choice({
-"حماية عالمية ",
-    "حماية كورية ",
+"ريسيت سريع ",
+    "تفعيل الحماية لجميع النسخ ",
    "تفعيل باللوبي ",
       " تفعيل بالساحة",
        "تفعيل بالجيم ",  
@@ -13,8 +13,7 @@ SN = gg.choice({
    "أزالة الضباب",	  
       "نزول سريع",
 		  	  "أوم",
-	  "وال هاك",		
-	  	  "ريسيت سريع",		  	    	 							  		  
+	  "وال هاك",		  	    	 							  		  
     " خروج "
 }, nil, "Abo7amzeh hack️")
 if SN == nil then else
@@ -30,93 +29,21 @@ if SN ==  9 then fog() end
 if SN ==  10 then b() end
 if SN ==  11 then mw6() end
 if SN ==  12 then wal() end
-if SN ==  13 then dab() end
-if SN == 14 then EXIT() end
+if SN == 13 then EXIT() end
 end
 PUBGMH = -1
-end
-function a()
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("67109377", 4, false, 536870912, 0, -1)
-gg.refineNumber("67109377", 4, false, 536870912, 0, -1)
-if gg.getResultCount() == 0 then
-gg.alert("⚠️فشل بالخطوة ألاولى اغلق اللعبه وحاول مجددا")
-else
-local searchCount = gg.getResultCount()
-local searchResults = gg.getResults(searchCount)
-for i, v in ipairs(searchResults) do
-  v.freeze = true
-  v.flags = 4
-  v.value = 0
-end
-gg.addListItems(searchResults)
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("67109633", 4, false, 536870912, 0, -1)
-gg.refineNumber("67109633", 4, false, 536870912, 0, -1)
-if gg.getResultCount() == 0 then
-gg.alert("⚠️فشل بالخطوة الثانية اغلق اللعبه وحاول مجددا")
-else
-local searchCount = gg.getResultCount()
-local searchResults = gg.getResults(searchCount)
-for i, v in ipairs(searchResults) do
-  v.freeze = true
-  v.flags = 4
-  v.value = 0
-end
-gg.addListItems(searchResults)
-gg.clearResults()
-gg.alert("تم التفعيل")
-end
-end
 end
 function k()
 gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("67109633", gg.TYPE_DWORD)
     gg.getResults(50000)
     gg.editAll("0", gg.TYPE_DWORD)
-    gg.clearResults()
- os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
-      os.remove("/storage/emulated/0/tencent")
-      os.remove("/storage/emulated/0/MidasOverse")
-      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
-      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
-      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
-      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
-      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
-      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
-      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
-      os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
-      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache")
-      os.remove("/storage/emulated/0/tencent")
-      os.remove("/storage/emulated/0/MidasOverse")
-      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog")
-      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt")
-      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt")
-      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json")
-      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
-      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
-      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
-      os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
-      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache")
-      os.remove("/storage/emulated/0/tencent")
-      os.remove("/storage/emulated/0/MidasOverse")
-      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/tbslog")
-      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/login-identifier.txt")
-      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/cacheFile.txt")
-      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/vmpcloudconfig.json")
-      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
-      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
-      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
-      os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
       gg.clearResults()
       gg.setRanges(gg.REGION_C_ALLOC)
       gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       if gg.getResultCount() == 0 then
       gg.alert("خطأ اغلق اللعبه وحاول مجددا❌")
       else
-     gg.alert("تم التفعيل ومنتهية")
       gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       n = gg.getResultCount()
       jz = gg.getResults(n)
@@ -2603,6 +2530,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
   gg.getValues({
     [1] = {address = 532994673364, flags = 4}
   })
+   os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+ gg.toast("تم التفعيل ")
+gg.clearResults()
+gg.alert("منتهيه ")
 end
 
 function C12()
@@ -2629,7 +2563,7 @@ gg.clearResults()
   gg.editAll("0", gg.TYPE_DWORD)
   gg.clearResults()
 end
-function dab()
+function a()
 gg.clearResults() 
 gg.setVisible(false) 
 gg.setRanges(gg.REGION_C_DATA) 
