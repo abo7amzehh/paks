@@ -13,7 +13,7 @@ SN = gg.choice({
    "أزالة الضباب",	  
       "نزول سريع",
 		  	  "أوم",
-	  "وال هاك",		  	    	 							  		  
+	  "حماية2",		  	    	 							  		  
     " خروج "
 }, nil, "Abo7amzeh hack️")
 if SN == nil then else
@@ -306,25 +306,27 @@ end
 
 function wal()
 gg.clearResults()
-  gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("200")
-  gg.getResults(999)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("930")
-  gg.getResults(999)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("WALLHACK SD675 Activated")
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("Color Red AKTIF💯")
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("1.1754945e-37", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("9CC", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.getResults(100000)
+gg.editAll("1.1754945e-37", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.getResults(1)
+gg.alert("تم التفعيل")
 end
 
 function antg()
