@@ -326,7 +326,7 @@ gg.getResultsCount()
 gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResultsCount()
 gg.getResults(1)
-gg.alert("FIX 10MNT DONE")
+gg.alert("تم التفعيل")
 end
 
 function antg()
